@@ -1,0 +1,13 @@
+@import './assets/fonts/fonts.css';
+body,html{
+  background: black;
+  margin: 0;
+  color:white;
+}
+body,html,input,textarea,h1,h4,h5{
+  -webkit-text-size-adjust: 100%;
+  font-family: GraphikTH,Netflix,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+:root{
+  --primary: #e50914;
+}

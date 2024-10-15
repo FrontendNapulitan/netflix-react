@@ -1,0 +1,30 @@
+@font-face {
+    font-display: optional;
+    font-family: Netflix;
+    font-weight: 100;
+    src: url('./NetflixSans_W_Th.woff2') format("woff2");
+}
+@font-face {
+    font-display: optional;
+    font-family: Netflix;
+    font-weight: 400;
+    src: url('./NetflixSans_W_Rg.woff2') format("woff2");
+}
+@font-face {
+    font-display: optional;
+    font-family: Netflix;
+    font-weight: 500;
+    src: url('./NetflixSans_W_Md.woff2') format("woff2");
+}
+@font-face {
+    font-display: optional;
+    font-family: Netflix;
+    font-weight: 900;
+    src: url('./NetflixSans_W_Blk.woff2') format("woff2");
+}
+@font-face {
+    font-display: optional;
+    font-family: GraphikTH;
+    font-weight: 500;
+    src: url('./GraphikTH-Bold.woff2') format("woff2");
+}

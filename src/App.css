@@ -1,0 +1,108 @@
+.wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.hero {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background-image: linear-gradient(
+    7deg,
+    rgba(0, 0, 0, 0.85) 10%,
+    rgba(0, 0, 0, 0.8465) 17.25%,
+    rgba(0, 0, 0, 0.8361) 24.5%,
+    rgba(0, 0, 0, 0.8187) 31.75%,
+    rgba(0, 0, 0, 0.7944) 39%,
+    rgba(0, 0, 0, 0.7632) 46.25%,
+    rgba(0, 0, 0, 0.725) 53.5%,
+    rgba(0, 0, 0, 0.6868) 60.75%,
+    rgba(0, 0, 0, 0.6556) 68%,
+    rgba(0, 0, 0, 0.6312) 75.25%,
+    rgba(0, 0, 0, 0.6139) 82.5%,
+    rgba(0, 0, 0, 0.6035) 89.75%,
+    rgba(0, 0, 0, 0.6) 97%
+  );
+}
+.hero .wrapperHeroContent #title{
+  font-size: 56px;
+  margin-bottom: 1rem;
+}
+.hero .wrapperHeroContent #subtitle{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.hero .wrapperHeroContent #disclaimer{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.hero .wrapperHeroContent input::placeholder{
+  color: rgba(255, 255, 255, 0.536);
+}
+.hero .wrapperHeroContent .inputAndButton{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+.hero .wrapperHeroContent .inputAndButton button{
+  background: var(--primary);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  box-sizing: border-box;
+  gap:5px;
+  color: white;
+  border-radius: 5px;
+  font-size: 24px;
+  border: none;
+  height: 56px;
+  width:141.219px;
+}
+.hero .wrapperHeroContent .inputAndButton input{
+  font-size: 1rem;
+  /* line-height: 1.5; */
+  width: 100%;
+  padding: 1rem 1rem 1rem;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: transparent;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 0 solid transparent;
+  color: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 20px 0px;
+  border: 2px solid #ffffff4f;
+  min-width: 15px;
+  min-height: 15px;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+}
+.hero .wrapperHeroContent{
+  text-align: center;
+  font-weight: 900;
+  max-width: 36.75rem;
+  margin: auto;
+}
